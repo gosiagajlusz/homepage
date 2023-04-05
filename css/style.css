@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+    color: #150308;
+    background-color: #ffffff;
+}
+
+.pink {
+    color: #d3d1d1;
+    background-color: #711b2b;
+}

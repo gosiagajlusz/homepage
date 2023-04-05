@@ -1,0 +1,36 @@
+.navigation {
+    text-decoration: none;
+    color: #348134;
+}
+
+.navigation__list {
+    padding: 20px;
+    list-style-type: none;
+}
+
+.navigation_listItem {
+    margin: 5px;
+}
+
+.navigation_listLink {
+    text-decoration: none;
+
+    color: #364936;
+    padding: 5px 15px;
+    margin-top: 25px;
+}
+
+
+.navigation_listLink:focus {
+    outline: 3px solid currentColor;
+}
+
+.navigation_listLink:hover {
+    color: #c87c90;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation_listLink:active {
+    color: #f30808;
+}

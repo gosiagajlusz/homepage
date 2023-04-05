@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/mainElement.css" rel="stylesheet">
+
+
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="mainElement">
+        <header>
+            <h1 class="mainElement__title">Gosia Gajlusz - front end developer</h1>
+            <img class="mainElement__portrait" src="https://i.postimg.cc/9F1nyqNy/zdjecie-Gosia.jpg"
+                alt="portret Gosi " />
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation_listItem"><a class="navigation_listLink" href="#intro">Przywitanie</a></li>
+                <li class="navigation_listItem"><a class="navigation_listLink" href="#table">Ulubione utwory</a></li>
+                <li class="navigation_listItem"><a class="navigation_listLink" href="#projects">Projekty</a></li>
+                <li class="navigation_listItem"><a class="navigation_listLink" href="#hobbys">Zainteresowania</a></li>
+                <li class="navigation_listItem"><a class="navigation_listLink" href="#otherInfo">Inne Informacje</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <article class="article">
+
+
+            <section id="intro">
+
+                <button class="article__button">włącz <span class="article__themeName">różowy</span> motyw</button>
+                <div class="article__div">
+                    <p class="article__paragraphIntro">Jestem Gosia. Obecnie projektuję wnętrza i uczę się tworzenia
+                        aplikacji i stron
+                        internetowych.
+                        <br>
+                        Dążę do tego, żeby aplikacje mojego autorstwa były ładne i przyjemne w użytkowaniu. <br>
+                        <p>testttttttttt</p>
+
+                    </p>
+                </div>
+            </section>
+            <div class="article__container" id="table">
+                <table class="article__table">
+                    <h2 class="article__tableHeader">Moje ulubione utwory</h2>
+                    <thead>
+                        <tr class="article__tableRow">
+                            <th class="article__tableCell article__tableHeader" scope="col">Tytuł</th>
+                            <th class="article__tableCell article__tableHeader" scope="col">Wykonawca</th>
+                            <th class="article__tableCell article__tableHeader" scope="col">Album</th>
+                            <th class="article__tableCell article__tableHeader" scope="col">Rok</th>
+
+                        </tr>
+                    </thead>
+                    <tr class="tableRow">
+                        <th class="article__tableCell article__tableHeader" scope="row">Manifest it</th>
+                        <td class="article__tableCell" rowspan="3">Neffex</td>
+                        <td class="article__tableCell">Born a Rockstar: The Collection</td>
+                        <td class="article__tableCell" rowspan="2">2021</td>
+                    </tr>
+                    <tr class="article__tableRow">
+                        <th class="article__tableCell article__tableHeader" scope="row">Something you could never own
+                        </th>
+                        <td class="article__tableCell">It's only worth it if you work for it</td>
+
+                    </tr>
+                    <tr class="article__tableRow">
+                        <th class="article__tableCell article__tableHeader" scope="row">With you</th>
+
+                        <td class="article__tableCell"> With you </td>
+                        <td class="article__tableCell">2018</td>
+                    </tr>
+                    <tbody></tbody>
+
+                </table>
+            </div>
+
+
+
+            <div class="article__divProjects">
+                <section id="projects">
+                    <h2 class="article__header">Projekty, które do tej pory stworzyłam (niestety nie front end ;) </h2>
+                    <h3>Wnętrza komercyjne</h3>
+                    <p>Restauracje : Ritz Carlton.Luksusowo i elegancko,a mimo to z moim ukochanym kolorem zielonym
+                        <br>
+                        Apartamenty w statkach rejsowych : Oceania Allura - niestety nie ujrzała światła dziennego :(
+                        Panedemia..
+                        <br> Crystal Cruises - musiał się błyszczeć :)
+                        <br> Chill room dla firmy Team Up w pięknym pofabrycznym budynku. Wypełniony polskimi meblami z
+                        Euformy
+                        i
+                        roślinnymi akcentami.
+                    </p>
+
+                    <h3>Wnętrza mieszkalne</h3>
+                    <p>Mieszkania w loftach:
+                        Browar we Wrocławiu. Mój ulubiony projekt 2021.
+                        <br>
+                        Domy:dom z pięknej cegły na Klecinie:
+                        salon w stylu scandi-boho, z widokiem na ogród i piękne cegły,sama bym taki chciała ;)
+                        <br>Dom na Kaszubach zapewniający co roku gościom bardzo klimatyczny pobyt.
+                    </p>
+
+                </section>
+
+                <section id="hobbys">
+
+                    <h2 class="article__header">Zainteresowania</h2>
+                    <h3>Gry planszowe i karciane</h3>
+                    <p>Diuna, Paranienormalni detektywi, Tajniacy, Tabu,Kowale losu, Cytadela </p>
+                    <hr>
+                    <h3>Architektura wnętrz i dekoracje</h3>
+                    <p>Wnętrza w stylu scandi-boho, loftowe, inspirowane naturą, materiały przyjazne środowisku,
+                        dekoracje do
+                        wnętrz
+                        nadające wnętrzom przytulnego charakteru. Interesuję się designem od bardzo wielu lat,
+                        pracowałam jako
+                        architekt wnętrz od 2015 roku. W 2022 postanowiłam, że projektowanie wnętrz przejdzie do
+                        kategorii
+                        hobby. A
+                        swoje zamiłowanie do tego będę realizowala na przestrzeni własnego domu :) </p>
+                    <hr>
+                    <h3>Gry komputerowe</h3>
+                    <P>Among us, Fall guys, Become human, Strange things.
+                        <hr>
+                    <h3>Kuchnie świata</h3>
+                    <p>Tajska, indyjska, meksykańska, włoska</p>
+                    <hr>
+
+                    <h3>Zagadki</h3>
+                    <p>Matematyczne, detekwtywistyczne, wyzwania logiczne. Filmy, w których nie wiadomo, o co chodzi
+                        prawie do
+                        samego końca. Code wars też są dla mnie formą tego typu atrakcji :)
+
+                    </p>
+                </section>
+
+                <section id="otherInfo">
+                    <h2 class="article__header">Inne info o mnie</h2>
+                    <p><b>Prawo jazdy</b>
+                        Mam prawo jazdy kategorii b,ale uwielbiam chodzić na pieszo i ciężko mnie namówić do jeżdzenia w
+                        delegacje
+                        samochodem.
+                        Za to samolotem już bardzo chętnie :D
+                        <hr>
+                        <br><b>Języki obce</b>
+                        Mówię biegle po angielsku, niemieckiego mam uprawnienia tłumacza, ale raczej pozapominałam
+                        prawie
+                        wszystko,bo
+                        ostatnie użycie miało miejsce kilkanaście lat temu.
+                        Francuski miałam na studiach przez kilka semestrów, ale nadal nie rozumiem rodowitych Francuzów
+
+                    </p>
+                </section>
+            </div>
+        </article>
+
+        <footer class="footer">
+            Strona jeszcze nie ma ciasteczek, ale będę musiała je dodać,gdy będę chciała ją umieścić w internecie i
+            żeby
+            mnie nikt nie pozwał :)
+        </footer>
+    </div>
+</body>
+
+</html>

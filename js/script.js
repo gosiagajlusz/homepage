@@ -1,14 +1,19 @@
 
-let body = document.body;
-//tak się łapie w sposob uproszczony- jak sie wstawia do code pena,bo tam nie ma body z klasa body, ale on wie które to body
+{const hello = ()=>{
+    console.log("Witam serdecznie zaglądających do konsoli")}
+    hello();
+}
+
+
+let body = document.querySelector(".body");
 let button = document.querySelector(".article__button");
-let themeName = document.querySelector(".article__themeName");
+//przycisk, który przełącz kolory
+let colorName = document.querySelector(".article__colorName-js");
+//to jest span, w którego innertext się wpisze nazwa 
 
 button.addEventListener("click", () => {
     body.classList.toggle("pink");
-    themeName.innerText = body.classList.contains("pink") ? "biały" : "różowy"
-
-
+    colorName.innerText = body.classList.contains("pink") ? "biały" : "różowy"
+    
 });
-
 

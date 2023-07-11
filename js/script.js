@@ -8,12 +8,15 @@
 let body = document.querySelector(".body");
 let button = document.querySelector(".article__button");
 //przycisk, który przełącz kolory
-let colorName = document.querySelector(".article__colorName-js");
+let nextColorName = document.querySelector(".article__nextColorName-js");
 //to jest span, w którego innertext się wpisze nazwa 
 
 button.addEventListener("click", () => {
+    //
     body.classList.toggle("pink");
-    colorName.innerText = body.classList.contains("pink") ? "biały" : "różowy"
-    
+    //przełącz klasę jeśli klasa jest pink
+    nextColorName.innerText = body.classList.contains("pink") ? "biały" : "różowy"
+    //spanowi wewnątrz button zmienia tekst-jeżeli zawiera pink
+    //to zmienia na biały a jak nie to różowy
 });
 

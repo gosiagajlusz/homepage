@@ -1,6 +1,6 @@
 .navigation {
     text-decoration: none;
-    color: #348134;
+    color: #71c371;
 }
 
 .navigation__list {
@@ -15,7 +15,7 @@
 .navigation_listLink {
     text-decoration: none;
 
-    color: #364936;
+    color: #779d77;
     padding: 5px 15px;
     margin-top: 25px;
 }

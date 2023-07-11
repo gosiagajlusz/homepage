@@ -4,7 +4,7 @@
 
 .article__header {
     font-weight: 900;
-    color: #092956;
+    color: #425877;
 }
 
 .article__button {
@@ -43,7 +43,7 @@
 
     font-weight: normal;
     background-color: #fbe4e4;
-    color: #0f3629;
+    color: #228f6b;
 }
 
 
@@ -57,7 +57,7 @@
 }
 
 .article__tableRow {
-    color: #150308;
+    color: #6b6868;
 }
 
 .article__tableRow:nth-child(even) {

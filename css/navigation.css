@@ -1,11 +1,14 @@
 .navigation {
     text-decoration: none;
     color: #71c371;
+    
 }
 
 .navigation__list {
     padding: 20px;
     list-style-type: none;
+    display:flex;
+    flex-direction: row;
 }
 
 .navigation_listItem {
